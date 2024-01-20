@@ -1,6 +1,6 @@
 # Background Colour Changer
 
-[![Banner](https://github.com/sonimohit481/Background-Colour-Changer/raw/main/banner.jpg)](https://github.com/sonimohit481/Background-Colour-Changer/commit/7756abf423309c55fad62eddb280beaab600ece4)
+[![Banner](https://github.com/sonimohit481/Background-Colour-Changer/commit/7756abf423309c55fad62eddb280beaab600ece4)]
 
 Description of your project goes here.
 
