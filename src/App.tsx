@@ -4,7 +4,7 @@ import { Header } from "./compnents";
 import Version1 from "./screens/Version1";
 
 const App = () => {
-  const [isBasic, setIsBasic] = useState(false);
+  const [isBasic, setIsBasic] = useState(true);
   const [currentColor, setCurrentColor] = useState<string>("#fafafa");
   return (
     <div className="w-full h-screen" style={{ backgroundColor: currentColor }}>
