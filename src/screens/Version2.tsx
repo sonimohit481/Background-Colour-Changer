@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import React, { useState } from "react";
 
 const getTextColor = (bgColor: string): string => {
   const [r, g, b] = bgColor.match(/\w\w/g)!.map((c) => parseInt(c, 16));
@@ -52,7 +52,7 @@ const Version2 = ({
   };
 
   return (
-    <div className="w-full h-screen" style={{ backgroundColor: currentColor }}>
+    <div>
       <div className="absolute bottom-10 left-0 right-0">
         <div className=" p-3 inset-x-5 flex flex-wrap gap-2 justify-center">
           <button

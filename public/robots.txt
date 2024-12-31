@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Block specific private areas if needed
+Disallow: /admin/
+Disallow: /private/
+
+

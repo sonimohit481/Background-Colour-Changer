@@ -63,7 +63,7 @@ const Version1 = ({
   }, []);
 
   return (
-    <div className="w-full h-screen" style={{ backgroundColor: currentColor }}>
+    <div>
       <div className="absolute bottom-10 left-0 right-0">
         <div className=" p-3 inset-x-5 flex flex-wrap gap-2 justify-center">
           {currentPalette.colors.map((color) => (

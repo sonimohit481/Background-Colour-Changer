@@ -7,7 +7,7 @@ const App = () => {
   const [isBasic, setIsBasic] = useState(false);
   const [currentColor, setCurrentColor] = useState<string>("#fafafa");
   return (
-    <div>
+    <div className="w-full h-screen" style={{ backgroundColor: currentColor }}>
       <Header isBasic={isBasic} setIsBasic={setIsBasic} />
       {isBasic ? (
         <Version1
