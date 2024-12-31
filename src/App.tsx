@@ -5,10 +5,21 @@ import Version1 from "./screens/Version1";
 
 const App = () => {
   const [isBasic, setIsBasic] = useState(false);
+  const [currentColor, setCurrentColor] = useState<string>("#fafafa");
   return (
     <div>
       <Header isBasic={isBasic} setIsBasic={setIsBasic} />
-      {isBasic ? <Version1 /> : <Version2 />}
+      {isBasic ? (
+        <Version1
+          currentColor={currentColor}
+          setCurrentColor={setCurrentColor}
+        />
+      ) : (
+        <Version2
+          currentColor={currentColor}
+          setCurrentColor={setCurrentColor}
+        />
+      )}
     </div>
   );
 };

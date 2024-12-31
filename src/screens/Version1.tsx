@@ -49,8 +49,13 @@ const getTextColor = (bgColor: string): string => {
   return r * 0.299 + g * 0.587 + b * 0.114 > 186 ? "#000000" : "#FFFFFF";
 };
 
-const Version1 = () => {
-  const [currentColor, setCurrentColor] = useState<string>("#fafafa");
+const Version1 = ({
+  currentColor,
+  setCurrentColor,
+}: {
+  currentColor: string;
+  setCurrentColor: (args: string) => void;
+}) => {
   const [currentPalette, setCurrentPalette] = useState<Palette>(palettes[0]);
 
   const handleColorChange = useCallback((color: string) => {
