@@ -1,44 +1,16 @@
 import { useState } from "react";
+import Version2 from "./screens/Version2";
+import { Header } from "./compnents";
+import Version1 from "./screens/Version1";
 
-function App() {
-  const [colour, setColour] = useState("Black");
-
-  const colorPalette = [
-    "Red",
-    "Orange",
-    "Yellow",
-    "Green",
-    "Blue",
-    "Purple",
-    "Pink",
-    "Turquoise",
-    "Lime",
-    "Indigo",
-    "Crimson",
-    "Teal",
-    "Salmon",
-    "SlateGray",
-    "Gold",
-  ];
-
+const App = () => {
+  const [isBasic, setIsBasic] = useState(false);
   return (
-    <>
-      <div className="w-full h-screen" style={{ backgroundColor: colour }}>
-        <div className="absolute bottom-10 p-3 inset-x-5 flex flex-wrap gap-1 justify-between">
-          {colorPalette.map((color) => (
-            <div
-              key={color}
-              className="px-4 py-3 rounded-lg text-white font-bold drop-shadow-xl"
-              onClick={() => setColour(color)}
-              style={{ backgroundColor: color }}
-            >
-              {color}
-            </div>
-          ))}
-        </div>
-      </div>
-    </>
+    <div>
+      <Header isBasic={isBasic} setIsBasic={setIsBasic} />
+      {isBasic ? <Version1 /> : <Version2 />}
+    </div>
   );
-}
+};
 
 export default App;
