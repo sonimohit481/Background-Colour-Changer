@@ -18,7 +18,7 @@ const Header = ({
           </div>
         </div>
 
-        <div className="flex flex-row gap-4">
+        <div className="flex flex-row gap-4 cursor-pointer">
           <div
             onClick={() => setIsBasic(true)}
             className={`font-semibold flex ${
