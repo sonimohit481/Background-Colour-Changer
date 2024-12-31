@@ -1,7 +1,8 @@
 {
   "name": "background-colour-changer",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "author": "Mohit Soni",
   "type": "module",
   "scripts": {
     "dev": "vite",
