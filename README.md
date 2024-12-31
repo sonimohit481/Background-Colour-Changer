@@ -8,7 +8,7 @@ The **Background Colour Changer** is an educational project designed to demonstr
 
 Explore the live demo [here](https://dynamic-background-colory-changer.netlify.app/).
 
-![App Preview](https://github.com/sonimohit481/Background-Colour-Changer/blob/main/public/Banner.png)
+![App Preview](https://github.com/sonimohit481/Background-Colour-Changer/blob/main/public/Banner2.png)
 
 ---
 
