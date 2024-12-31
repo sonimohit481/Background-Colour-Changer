@@ -1,6 +1,6 @@
 # Background Colour Changer
 
-![App Banner](https://github.com/sonimohit481/Background-Colour-Changer/blob/main/Banner.png)
+![App Banner](https://github.com/sonimohit481/Background-Colour-Changer/blob/main/public/Banner.png)
 
 The **Background Colour Changer** is an educational project designed to demonstrate the simplicity of managing background colors dynamically. This project serves as a hands-on learning tool for understanding React, TypeScript, TailwindCSS, and modern development workflows.
 
@@ -8,7 +8,7 @@ The **Background Colour Changer** is an educational project designed to demonstr
 
 Explore the live demo [here](https://dynamic-background-colory-changer.netlify.app/).
 
-![App Preview](https://github.com/sonimohit481/Background-Colour-Changer/blob/main/Banner.png)
+![App Preview](https://github.com/sonimohit481/Background-Colour-Changer/blob/main/public/Banner.png)
 
 ---
 
