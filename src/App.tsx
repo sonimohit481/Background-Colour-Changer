@@ -10,10 +10,7 @@ const App = () => {
     <div className="w-full h-screen" style={{ backgroundColor: currentColor }}>
       <Header isBasic={isBasic} setIsBasic={setIsBasic} />
       {isBasic ? (
-        <Version1
-          currentColor={currentColor}
-          setCurrentColor={setCurrentColor}
-        />
+        <Version1 setCurrentColor={setCurrentColor} />
       ) : (
         <Version2
           currentColor={currentColor}

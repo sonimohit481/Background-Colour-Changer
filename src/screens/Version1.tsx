@@ -50,10 +50,8 @@ const getTextColor = (bgColor: string): string => {
 };
 
 const Version1 = ({
-  currentColor,
   setCurrentColor,
 }: {
-  currentColor: string;
   setCurrentColor: (args: string) => void;
 }) => {
   const [currentPalette, setCurrentPalette] = useState<Palette>(palettes[0]);
